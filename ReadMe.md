@@ -6,6 +6,7 @@ RACMO Tool is a Python-and GDAL-based package for pre-processing, read, plot sta
 
 #### Warning: GDAL version >=3.1.4 is required, checking your GDAL version!
 
+
 ## 2. The functionalities includes:
 
 1) Convert NetCDF file in to GeoTiff with a default EPSG:3031 projection.
@@ -26,7 +27,8 @@ R2Tool.NC_to_TIFF(fn, param, res, out_fn_var, exe=False)
 2) Extracting time series from a point(s) ot shapefile.
 3) Batch processing
 
-## 3. Examples in cmd,
+
+## 3. Examples in cmd 
 ```
 RACMOTool.py ..../Dir 27000 clcov.KNMI-2001.ANT27.ERAINx_RACMO2.3p2.DD.nc N
 ```
