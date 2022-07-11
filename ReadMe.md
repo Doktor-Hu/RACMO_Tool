@@ -29,7 +29,7 @@ R2Tool.NC_to_TIFF(fn, param, res, out_fn_var, exe=False)
 
 
 ## 3. Examples in cmd 
-```sh
+```cmd
 RACMOTool.py ..../Dir 27000 clcov.KNMI-2001.ANT27.ERAINx_RACMO2.3p2.DD.nc N
 ```
 
