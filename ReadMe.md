@@ -4,6 +4,11 @@ Warning: GDAL version >=3.1.4 is required, checking your GDAL version!
 
 The functionalities includes:
 1) Convert NetCDF file in to GeoTiff with a default EPSG:3031 projection.
+   -- fn: Input filename
+   -- param: Parameter short name (see file name or pdf);
+   -- res: Input file resolution in [m] 27000 or 5500;
+   -- out_fn_var: Output filename;
+   -- exe: Boolean, if the code short be executed or only print the commandline.
 ```
 import RACMOTool as R2Tool
 R2Tool.NC_to_TIFF(fn, param, res, out_fn_var, exe=False)
