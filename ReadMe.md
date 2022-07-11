@@ -20,7 +20,7 @@ RACMO Tool is a Python-and GDAL-based package for pre-processing, read, plot sta
    -- out_fn_var: Output filename;
    
    -- exe: Boolean, if the code short be executed or only print the commandline.
-```
+```python
 import RACMOTool as R2Tool
 R2Tool.NC_to_TIFF(fn, param, res, out_fn_var, exe=False)
 ```
