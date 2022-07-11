@@ -10,3 +10,5 @@ The functionalities includes:
 ```
 Data_Preprocessing.py ..../Dir 27000 clcov.KNMI-2001.ANT27.ERAINx_RACMO2.3p2.DD.nc N
 ```
+
+The code are modified from ... and ..., and automated by Dr. Zhongyang Hu from IMAU/UU.
