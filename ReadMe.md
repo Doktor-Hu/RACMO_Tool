@@ -4,6 +4,10 @@ Warning: GDAL version >=3.1.4 is required, checking your GDAL version!
 
 The functionalities includes:
 1) Convert NetCDF file in to GeoTiff with a default EPSG:3031 projection.
+```
+import RACMOTool as R2Tool
+R2Tool.NC_to_TIFF(fn, param, res, out_fn_var, exe=False)
+```
 2) Extracting time series from a point(s) ot shapefile.
 3) Batch processing
 
